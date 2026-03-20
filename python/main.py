@@ -14,6 +14,7 @@ last_button_states = 0;
 
 def invert_lights(key):
     maps[level] = maps[level] ^ (1 << key)
+
     # top
     if key > 3:
         maps[level] = maps[level] ^ (1 << (key - 4))
