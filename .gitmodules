@@ -1,3 +1,6 @@
 [submodule "cpp/pico-sdk"]
 	path = cpp/pico-sdk
 	url = git@github.com:raspberrypi/pico-sdk.git
+[submodule "cpp/pimoroni-pico"]
+	path = cpp/pimoroni-pico
+	url = git@github.com:pimoroni/pimoroni-pico.git
