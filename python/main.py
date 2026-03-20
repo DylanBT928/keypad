@@ -6,7 +6,7 @@ keypad = picokeypad.PicoKeypad()
 keypad.set_brightness(1.0)
 keys = keypad.get_num_pads()
 
-maps = [0xbeb9, 0xe661]
+maps = [0xbeb9, 0xe661, 0xb62c, 0x8c1f, 0xa26d]
 level = 0
 
 last_button_states = 0;
